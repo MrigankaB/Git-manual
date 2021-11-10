@@ -171,4 +171,13 @@ Now you can push this to a remote repository
 	
 ***********************************
 
+Delete Branch
+
+git branch -d branch_name - It will delete the specified branch from the local repository.
+
+git push origin --delete branch_name - It will delete the specified branch from the remote repository.
+
+
+***********************************
+
 Mriganka Bezbaruah
