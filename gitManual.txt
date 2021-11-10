@@ -57,6 +57,17 @@ Pull our remote repository
 ***************************************************
 
 
+Scanning Changes To Files Using git diff command
+
+git diff file_name
+
+
+git diff -staged filename 
+
+
+***************************************************
+
+
 Stage changes on our local repository.
 
 “git add -A” stages All the files present in the directory.
