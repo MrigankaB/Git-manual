@@ -141,4 +141,33 @@ you made in that particular commit.
 
 **********************************
 
+Branches:
+
+Branches in Git are very similar to branches of a tree, i.e., you can put a unique set of code in a branch and can manipulate it, and there will be no effect
+on the actual or master branch.
+
+Step 1: Open the local repository, then open Git bash.
+
+Step 2: Now perform these commands,
+
+        git branch branch_name - This command will create a new branch with the specified name.
+
+        git branch - This command will show all the available branches present in the repository.
+          
+        git checkout branch_name - This command will switch the master branch to the specified branch name.
+
+	
+After making all the changes, you’ve to put the changes into the staging area, and then you can commit them.
+Now you can even push these changes to the remote repository, for that perform this command.
+
+Now you want to merge it with the master branch, then, first of all, you’ve to switch to master branch, then 
+you’ve to execute this command,
+
+                             git merge branch_name 
+
+Now you can push this to a remote repository
+
+	
+***********************************
+
 Mriganka Bezbaruah
