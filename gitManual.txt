@@ -63,6 +63,8 @@ git diff file_name
 
 To see the difference:  git diff -staged filename 
 
+Revert to old changes : git reset filename -----> git checkout filename
+
 
 ***************************************************
 
