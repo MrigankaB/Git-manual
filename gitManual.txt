@@ -57,7 +57,7 @@ Pull our remote repository
 ***************************************************
 
 
-Scanning Changes To Files Using git diff command
+Scanning Changes To Files Using git diff command (Before Staging)
 
 git diff file_name
 
