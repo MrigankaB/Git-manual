@@ -49,9 +49,12 @@ Stage changes on our local repository.
 
 “git add -A” stages All the files present in the directory.
 
-“git add .” stages new and modified, without deleted. It means this command will put all the new and modified files in the staging area, excluding the deleted files.
 
-“git add -u” stages modified and deleted, without new. It means this command will put all the modified and deleted files in the staging area, excluding the new files.
+“git add .” stages new and modified, without deleted. It means this command will put all the new and modified files in the staging area,
+ excluding the deleted files.
+
+“git add -u” stages modified and deleted, without new. It means this command will put all the modified and deleted files in the 
+staging area, excluding the new files.
 
 
 
@@ -69,7 +72,8 @@ git --version - This command is used to check the version of the Git installed o
 
 git add . - This command adds all the files of a repository to the staging area.
 
-git commit -m “message” - This command is used to commit all the changes. It creates a “save point,” i.e., we can revert to the old savepoint when needed.
+git commit -m “message” - This command is used to commit all the changes. It creates a “save point,” i.e., we can revert to the 
+old savepoint when needed.
 
 
 git log - This command is used to view the history of commits for a repository.
@@ -86,21 +90,28 @@ git config --global user.email “email id” - This command is used to set email.
 
 Working Directory: This is the directory that we’ve initialized, and here all the changes are being made for committing on GitHub.
 
-Staging Area: This is where we first put our code or files of the working repository. The command that we use to stage code is, “git add .”, “git add FileName” or “git add -all”. 
 
+Staging Area: This is where we first put our code or files of the working repository. The command that we use to stage code is, “git add .”,
+“git add FileName” or “git add -all”. 
 In simple terms, staging means telling Git what files we want to commit (new untracked files, modified files, or deleted files).
 
-Git directory (repository): This is where all the commits are stored whenever we make a commit. We can revert to an older version of our project using the “git checkout” command from this directory. 
+
+Git directory (repository): This is where all the commits are stored whenever we make a commit. We can revert to an older version of our project 
+using the “git checkout” command from this directory. 
 
 
 *********************************
 
 Example:
 
-Suppose there are three people in a team named “Harry,” “Rohan,” and “Aakash.” Let’s assume they are working on some project called the “Flask app”. Now, Harry made a pull request to fetch the project’s content on his system, and then he made some changes in the code base, and then he pushed the changes to Git. 
+Suppose there are three people in a team named “Harry,” “Rohan,” and “Aakash.” Let’s assume they are working on some project called the “Flask app”. 
+Now, Harry made a pull request to fetch the project’s content on his system, and then he made some changes in the code base, and then he pushed the 
+changes to Git. 
 
-After that, Rohan and Aakash also did the same thing. So, now, if there’s any bug in the code, we can easily rectify it by reverting to the more stable version. 
+After that, Rohan and Aakash also did the same thing. So, now, if there’s any bug in the code, we can easily rectify it by reverting to the more 
+stable version. 
 
 This means that Git facilitates us to toggle between the different commits made by team members.
 
-Note: You should always put relevant messages while committing changes in the repository. This will help other developers to understand what changes you made in that particular commit.
+Note: You should always put relevant messages while committing changes in the repository. This will help other developers to understand what changes 
+you made in that particular commit.
