@@ -61,8 +61,7 @@ Scanning Changes To Files Using git diff command
 
 git diff file_name
 
-
-git diff -staged filename 
+To see the difference:  git diff -staged filename 
 
 
 ***************************************************
