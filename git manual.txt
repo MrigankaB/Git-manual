@@ -38,7 +38,7 @@ Then click on the “Add SSH key” button; after this, it will ask you to confirm y
 Step 4: Creating a repository 
 
 
-Step 5: pull our local Git repository on GitHub
+Step 5: pull our local Git repository on GitHub.
 
 
 
