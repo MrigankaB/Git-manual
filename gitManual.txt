@@ -154,7 +154,8 @@ Step 2: Now perform these commands,
 
         git branch - This command will show all the available branches present in the repository.
           
-        git checkout branch_name - This command will switch the master branch to the specified branch name.
+        git checkout branch_name - This command will switch the master branch to the specified 
+                                   branch name or vice versa
 
 	
 After making all the changes, you’ve to put the changes into the staging area, and then you can commit them.
